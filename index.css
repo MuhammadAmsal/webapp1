@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, white, skyblue); */
+    background-image: url(./image/pngtree-soft-crystal-blue-polygonal-background-picture-image_1419246.jpg);
+    background-size: cover;
+   
+  }
+  #card {
+    width: 350px;
+    margin-top: 26px;
+    height: 600px;
+    border: solid skyblue;
+    border-radius: 5%;
+    background-color: rgba(257,257,257,.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 20px rgba(0,0,0,.2);
+    min-width: 350px;
+  }
+  .div1 {
+    margin-top: 12px;
+  }
+  
+  .lastName,
+  .firstName,
+  .emailAddress,
+  .password,.dateofbirth {
+    margin-top: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(257,257,257,.4);
+    border-radius: 3px;
+  }
+  button {
+    width: 70px;
+    height: 36px;
+    font-size: 17px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    background-color: #1773b7;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  button:hover{
+    transition-duration: 2s;
+    background-color:#4c5356 ;
+  }
+  #dateofbirth{
+    width: 165px;
+  }
+  #show{
+    width: 15px;
+    height: 100%;
+  
+  }
+  .innerdiv2{
+    margin-left: 20px;
+  }
+  .buttonDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }

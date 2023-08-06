@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body >
+   
+    <div id="card">
+      <h1
+        style="
+          margin-top: 10px;
+          height: 100px;
+          color: #4c5356 ;
+          font-size: 60px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          "> SignUp
+      </h1>
+
+      <!--  login email search bar  -->
+      <div class="div">
+        <div class="innerdiv1">
+          <h2>First Name</h2>
+          <input
+            id="firstName"
+            class="firstName"
+            type="text"
+            placeholder="Enter First Name"
+          />
+        </div>
+      </div>
+      <div class="div1">
+        <div class="innerdiv1">
+          <h2>Last Name</h2>
+          <input
+            id="lastName"
+            class="lastName"
+            type="text"
+            placeholder="Enter Last Name"
+          />
+        </div>
+      </div>
+      <div class="div1">
+        <div class="innerdiv1">
+          <h2>Date of Birth</h2>
+          <input
+            id="dateofbirth"
+       class="dateofbirth"
+            type="date"
+           
+          />
+        </div>
+      </div>
+
+      <div class="div1">
+        <div class="innerdiv1">
+          <h2>Email Address</h2>
+          <input
+            id="emailAddress"
+      class="emailAddress"
+            type="email"
+            placeholder="Enter Email Address"
+          />
+        </div>
+      </div>
+      <!-- login password  -->
+      <div class="div1">
+        <div class="innerdiv2">
+          <h2>Password</h2>
+          <input
+            id="password"
+            class="password"
+            type="password"
+            placeholder="Enter Password"
+            value=""
+          />
+          <input id="show" type="checkbox" onclick="myFunction()"><script>function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }</script>
+        </div>
+      </div>
+      <div class="buttonDiv" >
+        <div style="margin-top: 34px; font-size: 20px;" ><a  href="./login.html" target="_blank"> <h5 >Already have an account</h5></a></div>
+
+      <div class="div1" id="button">
+        <button>Register</button>
+      </div>
+    </div>
+
+    <script type="module" src="signup.js"></script>
+  </body>
+</html>

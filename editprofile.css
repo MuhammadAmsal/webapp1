@@ -1,0 +1,39 @@
+.card {
+    width: 350px;
+    margin-top: 26px;
+    height: 590px;
+    border: solid skyblue;
+    border-radius: 5%;
+    background-color: rgba(257,257,257,.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 20px rgba(0,0,0,.2);
+    min-width: 350px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, white, skyblue); */
+    background-image: url(./image/pngtree-soft-crystal-blue-polygonal-background-picture-image_1419246.jpg);
+    background-size: cover;
+  }
+  #editBtn{
+    margin-top: 28px;
+    width: 170px;
+    height: 30px;
+  }
+  .buttonArea{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .arrowBtn{
+margin-top: 34px;
+  }
+  .editBtn{
+margin-bottom: 17px;
+  }
